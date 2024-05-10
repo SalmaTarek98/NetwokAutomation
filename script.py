@@ -63,36 +63,4 @@ if config:
     vxr.send_command_timing("conf t")
     show = vxr.send_command_timing(config)
 
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-B
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
     print("This is the output: \n \n" +show)
